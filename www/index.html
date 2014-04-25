@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="TodoSyncApp">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+        <title>Listagram App Demo</title>
+        <link rel="stylesheet" type="text/css" href="css/app.css">
+        <link rel="stylesheet" type="text/css" href="css/spinner.css">
+        <link rel="stylesheet" type="text/css" href="lib/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="lib/brick/dist/brick.min.css">
+    </head>
+    <body>
+
+        <x-deck selected-index="0">
+            <x-card transition-type="fade-scale">
+                <div class="spinner"></div>
+            </x-card>                
+        </x-deck>
+
+
+        <script type="text/javascript" src="lib/pouchdb/dist/pouchdb-nightly.min.js"></script>
+        <script type="text/javascript" src="lib/brick/dist/brick.min.js"></script>
+        <script type="text/javascript" src="lib/mithril/mithril.min.js"></script>
+    </body>
+</html>

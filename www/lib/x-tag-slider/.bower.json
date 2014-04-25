@@ -1,0 +1,31 @@
+{
+  "name": "x-tag-slider",
+  "description": "Polyfill on top of input type='range', providing a consistent UI regardless of whether type='range' is supported or not.",
+  "version": "0.1.7",
+  "keywords": [
+    "web-components",
+    "button",
+    "icon",
+    "label",
+    "x-tag"
+  ],
+  "main": [
+    "src/slider.js",
+    "src/slider.css",
+    "src/slider.styl"
+  ],
+  "dependencies": {
+    "x-tag-core": "*",
+    "brick-common": "*"
+  },
+  "homepage": "https://github.com/x-tag/slider",
+  "_release": "0.1.7",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.7",
+    "commit": "74b3e3708f506462b4f158bc98ba57799bd22398"
+  },
+  "_source": "git://github.com/x-tag/slider.git",
+  "_target": "*",
+  "_originalSource": "x-tag-slider"
+}

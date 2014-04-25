@@ -1,0 +1,46 @@
+{
+  "name": "brick",
+  "description": "UI Web Components for Mobile Web Apps",
+  "version": "1.0.1",
+  "keywords": [
+    "brick",
+    "custom",
+    "elements",
+    "x-tag"
+  ],
+  "main": [
+    "dist/brick.js",
+    "dist/brick.css",
+    "dist/OpenSans-SemiBold.ttf"
+  ],
+  "ignore": [
+    "site",
+    "demos",
+    "component",
+    "build",
+    "bower_components"
+  ],
+  "dependencies": {
+    "x-tag-core": "0.9.4",
+    "x-tag-appbar": "*",
+    "x-tag-flipbox": "*",
+    "x-tag-toggle": "*",
+    "x-tag-calendar": "*",
+    "x-tag-deck": "*",
+    "x-tag-layout": "*",
+    "x-tag-slider": "*",
+    "x-tag-tabbar": "*",
+    "brick-common": "*"
+  },
+  "homepage": "https://github.com/mozilla/brick",
+  "_release": "1.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.1",
+    "commit": "09beec44466e10d149366afc622e9b753b54957d"
+  },
+  "_source": "git://github.com/mozilla/brick.git",
+  "_target": "~1.0.1",
+  "_originalSource": "brick",
+  "_direct": true
+}

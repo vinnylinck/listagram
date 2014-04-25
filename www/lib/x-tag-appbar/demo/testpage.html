@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>App Bar Demo - X-Tag</title>
+
+  <link rel="stylesheet" type="text/css" href="x-tag-components.css"/>
+  <link rel="stylesheet" type="text/css" href="../src/appbar.css"/>
+
+  <script type="text/javascript" src="x-tag-components.js"></script>
+  <script type="text/javascript" src="../src/appbar.js"></script>
+
+  <style>
+
+    .simple {
+      color: white;
+      background-color: #ddd;
+      background-image: none;
+      font-size: 2.5rem;
+      color: rgb(255, 255, 255);
+    }
+
+    x-appbar.simple > *:before {
+      top: 3px;
+      bottom: 3px;
+    }
+
+    .ffos {
+      color: white;
+      background-image: none;
+      background-color: orange;
+    }
+
+    x-appbar.ffos > *:before {
+      top: 3px;
+      bottom: 3px;
+    }
+    x-appbar.ffos {
+      box-shadow: 0 2px 0px 0 rgba(0,0,0,0.3);
+    }
+    #mobile-device {
+      height: 200px;
+      width: 320px;
+      border: solid 1px black;
+      background-color: #888;
+    }
+
+    h2{
+      font-size: 24pt;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<br />
+  <x-appbar>
+    <div>=</div>
+    <h2>Default Styles</h2>
+    <div>+</div>
+    <div>?</div>
+  </x-appbar>
+
+<br />
+
+  <x-appbar class="simple">
+    <x-action>=</x-action>
+    <h2>Simple Styles</h2>
+    <x-action>+</x-action>
+    <x-action>-</x-action>
+    <x-action>?</x-action>
+  </x-appbar>
+
+<br />
+
+  <div id="mobile-device">
+    <x-appbar class="simple ffos" subheading="(2)">
+      <x-action>=</x-action>
+      <h2>Messages</h2>
+      <x-action>+</x-action>
+    </x-appbar>
+    <ul>
+      <li>Message 1</li>
+      <li>Message 2</li>
+    <ul>
+  </div>
+
+</body>
+
+</html>

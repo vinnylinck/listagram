@@ -1,0 +1,28 @@
+{
+  "name": "x-tag-appbar",
+  "description": "",
+  "version": "0.2.12",
+  "keywords": [
+    "web-components",
+    "x-tag"
+  ],
+  "main": [
+    "src/appbar.js",
+    "src/appbar.css",
+    "src/appbar.styl"
+  ],
+  "dependencies": {
+    "x-tag-core": "*",
+    "brick-common": "*"
+  },
+  "homepage": "https://github.com/x-tag/appbar",
+  "_release": "0.2.12",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.12",
+    "commit": "772bd919ac2e844b3ce316a310b0c4d114225904"
+  },
+  "_source": "git://github.com/x-tag/appbar.git",
+  "_target": "*",
+  "_originalSource": "x-tag-appbar"
+}
