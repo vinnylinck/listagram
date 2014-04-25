@@ -17,7 +17,7 @@
     left: -11px;
     top: -10px;
     border-radius:50%;
-    box-shadow:0px 3px 3px red;
+    box-shadow:0px 3px 3px #7E8F7C;
     -webkit-animation:1.3s spin linear infinite;
     -ms-animation:1.3s spin linear infinite;
     -moz-animation:1.3s spin linear infinite;
