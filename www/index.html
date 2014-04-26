@@ -6,20 +6,25 @@
         <title>Listagram App Demo</title>
         <link rel="stylesheet" type="text/css" href="css/app.css">
         <link rel="stylesheet" type="text/css" href="css/spinner.css">
+        <link rel="stylesheet" type="text/css" href="css/wf-nunito.css">
         <link rel="stylesheet" type="text/css" href="lib/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="lib/brick/dist/brick.min.css">
+        <script type="text/javascript">
+            window.listagram = window.listagram || {};
+        </script>
     </head>
     <body>
-
-        <x-deck selected-index="0">
-            <x-card transition-type="fade-scale">
-                <div class="spinner"></div>
-            </x-card>                
-        </x-deck>
-
-
         <script type="text/javascript" src="lib/pouchdb/dist/pouchdb-nightly.min.js"></script>
         <script type="text/javascript" src="lib/brick/dist/brick.min.js"></script>
         <script type="text/javascript" src="lib/mithril/mithril.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        
+        <!-- models -->
+        
+        <!-- controllers -->
+        <script type="text/javascript" src="js/controllers/root.js"></script>
+        
+        <!-- views -->
+        <script type="text/javascript" src="js/views/root.js"></script>
     </body>
 </html>
