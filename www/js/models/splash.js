@@ -4,6 +4,11 @@
     
     // declaring controller
     n.model = function () {
+        
+        this.launch = function () {
+            console.log('launch');
+        };
+        
     };
     
     // exporting

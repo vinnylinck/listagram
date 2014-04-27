@@ -3,7 +3,8 @@
     'use strict';
     
     // declaring controller
-    n.model = function (domId, transition) {
+    n.model = function (cardIndex, domId, transition) {
+        this.index = m.prop(cardIndex);
         this.id = m.prop(domId);
         this.transitionType = m.prop(transition || 'slide-left');
     };

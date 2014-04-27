@@ -4,7 +4,7 @@
 
     // declaring view
     n.view = function (ctrl) {
-        return m('.full .aligner', {config: ctrl.init}, [
+        return m('.full .aligner', {config: ctrl.splash.launch}, [
             m('.item', [
                 m('.spinner')
             ]),

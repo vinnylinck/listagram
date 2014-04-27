@@ -13,19 +13,20 @@
             
             // splash screen
             new window.listagram.xCard.view(
-                new window.listagram.xCard.controller('splash-card','fade-scale'), [
+                new window.listagram.xCard.controller(0, 'splash-card', 'fade-scale'),
+                [
                     new window.listagram.splash.view(new window.listagram.splash.controller())
                 ]
             ),
             
             // home screen
-            new window.listagram.xCard.view(new window.listagram.xCard.controller('home-card')),
+            new window.listagram.xCard.view(new window.listagram.xCard.controller(1, 'home-card')),
             
             // debug screen
-            new window.listagram.xCard.view(new window.listagram.xCard.controller('debug-card')),
+            new window.listagram.xCard.view(new window.listagram.xCard.controller(2, 'debug-card')),
             
             // log screen
-            new window.listagram.xCard.view(new window.listagram.xCard.controller('config-card'))
+            new window.listagram.xCard.view(new window.listagram.xCard.controller(3, 'config-card'))
         ]);
     };
 
