@@ -20,7 +20,12 @@
             ),
             
             // home screen
-            new window.listagram.xCard.view(new window.listagram.xCard.controller(1, 'home-card')),
+            new window.listagram.xCard.view(
+                new window.listagram.xCard.controller(1, 'home-card'),
+                [
+                    new window.listagram.home.view(new window.listagram.home.controller())
+                ]
+            ),
             
             // debug screen
             new window.listagram.xCard.view(new window.listagram.xCard.controller(2, 'debug-card')),

@@ -6,7 +6,9 @@
     n.model = function () {
         
         this.launch = function () {
-            console.log('launch');
+            setTimeout(function () {
+                window.listagram.xDeck.showCard(1);
+            }, 3500);
         };
         
     };

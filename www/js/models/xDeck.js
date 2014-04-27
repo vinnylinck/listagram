@@ -4,7 +4,8 @@
     
     //
     n.showCard = function (index) {
-        console.log('show card ', index);
+        var deck = document.getElementById('listagram');
+        deck.showCard(index);
     };
     
     // declaring controller
