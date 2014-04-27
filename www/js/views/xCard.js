@@ -1,10 +1,10 @@
 /*global m */
-(function DeckView(n) {
+(function CardView(n) {
     'use strict';
         
     // declaring view
-    n.view = function (ctrl) {
-        return m('x-card#' + ctrl.card.id() + '[transition-type=' + ctrl.card.transitionType() + ']', []);
+    n.view = function (ctrl, children) {
+        return m('x-card#' + ctrl.card.id() + '[transition-type=' + ctrl.card.transitionType() + ']', children);
     };
     
     

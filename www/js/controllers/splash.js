@@ -1,9 +1,10 @@
 /*global m */
-(function Splash(n) {
+(function SplashController(n) {
     'use strict';
     
     // declaring controller
-    n.model = function () {
+    n.controller = function () {
+        this.splash = new window.listagram.splash.model();
     };
     
     // exporting
