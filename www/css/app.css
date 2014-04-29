@@ -64,3 +64,13 @@ html, body {
     min-width: 70%;
     max-width: 70%;
 }
+/*************************************/
+.redbar {
+    background-color: #C63D0F;
+    border-bottom: solid 1px #3B3738;
+}
+
+x-appbar > h1 {
+    font-family: 'Pacifico', 'cursive';
+    font-size: 1.4em;
+}
