@@ -2,14 +2,15 @@
 (function HomeView(n) {
     'use strict';
 
-    var draw = function (element) {
+    var drawHeader = function (element) {
         element.firstElementChild.innerHTML = "Listagram";
     };
 
     // declaring view
     n.view = function (ctrl) {
         return m('', [
-            m('x-appbar#homeBar.redbar', {config: draw})
+            m('x-appbar#homeBar.redbar', {config: drawHeader}),
+            m('', 'content')
         ]);
     };
 
