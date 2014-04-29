@@ -18,3 +18,6 @@
     // exporting
     window.listagram.home = n;
 }(window.listagram.home || {}));
+
+// loader
+// http://codepen.io/NeekGerd/pen/jnkGy
