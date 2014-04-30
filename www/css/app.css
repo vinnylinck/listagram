@@ -75,3 +75,6 @@ x-appbar > h1 {
     font-size: 1.4em;
 }
 /*************************************/
+.scrollable {
+    overflow-y: scroll;
+}

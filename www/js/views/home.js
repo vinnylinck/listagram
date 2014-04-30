@@ -4,16 +4,15 @@
 
     var drawHeader = function (element) {
         element.firstElementChild.innerHTML = "Listagram";
-    },
-        
-        drawWall = function (element) {
-        };
-
+    };
+    
     // declaring view
     n.view = function (ctrl) {
-        return m('', [
+        return m('.full', [
             m('x-appbar#homeBar.redbar', {config: drawHeader}),
-            m('','content')
+            m('.full .scrollable',[
+                
+            ])
         ]);
     };
 
