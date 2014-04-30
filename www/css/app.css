@@ -82,6 +82,7 @@ x-appbar > h1 {
 /*************************************/
 .scrollable {
     overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 .snapped {
