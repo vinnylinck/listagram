@@ -29,7 +29,7 @@
 
             // new lsit
             new window.listagram.xCard.view(
-                new window.listagram.xCard.controller(2, 'new-pin'), 
+                new window.listagram.xCard.controller(2, 'new-pin', 'slide-down'), 
                 [
                     m('','NEW PIN')
                 ]),

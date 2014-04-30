@@ -1,18 +1,30 @@
 /*global m */
 (function Splash(n) {
     'use strict';
+
+    // setting launched flag
+    listagram.xDeck.launched = false;
     
-    // declaring controller
+    // declaring model
     n.model = function () {
         
         this.launch = function () {
-            setTimeout(function () {
-                window.listagram.xDeck.showCard(1);
-            }, 3500);
+            
+            // checking if it was launched
+            if (!listagram.xDeck.launched) {
+                
+                // changing flag
+                listagram.xDeck.launched = true;
+                
+                // launching app
+                setTimeout(function () {
+                    listagram.xDeck.showCard(1);
+                }, 3500);
+            }
         };
-        
+
     };
-    
+
     // exporting
     window.listagram.splash = n;
 }(window.listagram.splash || {}));
