@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dancing Script'), local('DancingScript'), url(fonts/dancing.woff) format('woff');
+}
