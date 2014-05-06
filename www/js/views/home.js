@@ -32,7 +32,7 @@
                 ]) 
             ]),
             m('.bt-pin', {onclick: ctrl.showForm}, [
-                m('i', {class: 'fa fa-eject'}, [])
+                m('i', {class: 'fa fa-camera'}, [])
             ])
         ]);
     };

@@ -27,11 +27,11 @@
                 ]
             ),
 
-            // new lsit
+            // new pin form
             new window.listagram.xCard.view(
-                new window.listagram.xCard.controller(2, 'new-pin', 'slide-down'), 
+                new window.listagram.xCard.controller(2, 'new-pin', 'slide-up'), 
                 [
-                    m('','NEW PIN')
+                     new window.listagram.pin.view(new window.listagram.pin.controller())
                 ]),
 
             // log screen
